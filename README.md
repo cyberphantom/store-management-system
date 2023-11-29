@@ -36,7 +36,6 @@ This command builds the Docker image and starts the containers as per the config
 
 Once the containers are up and running, the application can be accessed at:
 
-arduino
 
 http://localhost:8000
 
@@ -49,7 +48,7 @@ To stop and remove the containers and networks, use:
 docker-compose down
 ```
 
-##Application Structure
+## Application Structure
 
     app/: Contains the FastAPI application code and route definitions.
     data/: Directory for JSON data files.
@@ -59,7 +58,7 @@ docker-compose down
     docker-compose.yml: Docker Compose configuration.
     requirements.txt: List of Python dependencies.
 
-##Contributing
+## Contributing
 
 Your contributions are welcome! Please read the contributing guidelines before submitting pull requests to the project.
 
