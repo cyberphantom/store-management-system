@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>صفحة الشراء</h2>
+    <form id="purchaseForm">
+        <select name="item" id="itemSelect">
+            <!-- Options will be populated here -->
+        </select>
+        <input type="number" name="quantity" placeholder="الكمية" required>
+        <button type="submit">شراء</button>
+    </form>
+{% endblock %}

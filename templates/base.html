@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Store Management System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper blue">
+            <div class="container">
+                <a href="#" class="brand-logo right">Store Management</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="/">الرئيسية</a></li>
+                    <li><a href="/item-catalog">كتالوج العناصر</a></li>
+                    <li><a href="/purchase">الشراء</a></li>
+                    <li><a href="/insertion">إضافة عنصر</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>حقوق النشر © 2023 نظام إدارة المتجر</p>
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>

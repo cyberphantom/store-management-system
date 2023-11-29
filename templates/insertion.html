@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>إضافة عنصر جديد</h2>
+    <form id="insertItemForm">
+        <input type="text" name="name" placeholder="اسم العنصر" required>
+        <input type="number" name="quantity" placeholder="الكمية" required>
+        <input type="text" name="description" placeholder="وصف العنصر">
+        <input type="number" name="price" placeholder="السعر" step="0.01">
+        <button type="submit">إدخال</button>
+    </form>
+{% endblock %}

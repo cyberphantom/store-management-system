@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>كتالوج العناصر</h2>
+    <form id="addItemForm">
+        <input type="text" name="name" placeholder="اسم العنصر" required>
+        <input type="number" name="quantity" placeholder="الكمية" required>
+        <button type="submit">إضافة عنصر</button>
+    </form>
+    <div id="itemsList">
+        <!-- سيتم إدراج العناصر هنا -->
+    </div>
+{% endblock %}

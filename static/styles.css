@@ -1,0 +1,38 @@
+/* Custom Styles to Complement Materialize CSS */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Custom Footer Styling */
+footer.page-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    header, main, footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Additional Custom Styles */
+/* Add any additional custom styles that you need here. 
+   These might include custom colors, typography, layout adjustments, 
+   or specific styles for certain elements or components in your application. */
