@@ -2,22 +2,24 @@
 ## Overview
 
 The Store Management System is a web-based application designed for efficiently managing inventory, purchases, and item insertion for a store. It utilizes FastAPI for the backend, featuring a responsive front-end design suitable for handling store operations. The application is containerized using Docker, simplifying deployment and scaling.
-Prerequisites
+
+## Prerequisites
 
 Before setting up the application, ensure you have Docker and Docker Compose installed:
 
-    Docker: Get Docker
-    Docker Compose: Install Docker Compose
+   - Docker: Get Docker
+   - Docker Compose: Install Docker Compose
 
-Installation and Running the App
-1. Clone the Repository
+## Installation and Running the App
+### 1. Clone the Repository
 
 To get started, clone this repository to your local machine:
 
 bash
-
+```
 git clone [URL of your repository]
 cd store-management-system
+```
 
 2. Build and Run with Docker Compose
 
