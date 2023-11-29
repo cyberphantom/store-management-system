@@ -1,5 +1,5 @@
-Store Management System
-Overview
+# Store Management System
+## Overview
 
 The Store Management System is a web-based application designed for efficiently managing inventory, purchases, and item insertion for a store. It utilizes FastAPI for the backend, featuring a responsive front-end design suitable for handling store operations. The application is containerized using Docker, simplifying deployment and scaling.
 Prerequisites
