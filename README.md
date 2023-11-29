@@ -15,22 +15,24 @@ Before setting up the application, ensure you have Docker and Docker Compose ins
 
 To get started, clone this repository to your local machine:
 
-bash
-```
+```bash
+
 git clone [URL of your repository]
 cd store-management-system
 ```
 
-2. Build and Run with Docker Compose
+### 2. Build and Run with Docker Compose
 
 From the project's root directory, execute:
 
-bash
+```bash
 
 docker-compose up --build
+```
 
 This command builds the Docker image and starts the containers as per the configuration in docker-compose.yml.
-3. Accessing the Application
+
+### 3. Accessing the Application
 
 Once the containers are up and running, the application can be accessed at:
 
@@ -38,15 +40,16 @@ arduino
 
 http://localhost:8000
 
-4. Stopping the Application
+### 4. Stopping the Application
 
 To stop and remove the containers and networks, use:
 
-bash
+```bash
 
 docker-compose down
+```
 
-Application Structure
+##Application Structure
 
     app/: Contains the FastAPI application code and route definitions.
     data/: Directory for JSON data files.
@@ -56,9 +59,10 @@ Application Structure
     docker-compose.yml: Docker Compose configuration.
     requirements.txt: List of Python dependencies.
 
-Contributing
+##Contributing
 
 Your contributions are welcome! Please read the contributing guidelines before submitting pull requests to the project.
-License
+
+##License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
