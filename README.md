@@ -62,6 +62,6 @@ docker-compose down
 
 Your contributions are welcome! Please read the contributing guidelines before submitting pull requests to the project.
 
-##License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
